@@ -499,9 +499,9 @@
 			return idx === -1 ? 0 : numStr.length - idx - 1
 		}
 
-		function formatMoney(value, decimals) {
+		function formatMoney(value: number, decimals: number) {
     const prefix = 'Rp ' 
-    const fmt = new Intl.NumberFormat('id-ID', { // Ubah ke format Indonesia
+    const fmt = new Intl.NumberFormat('id-ID', { 
         minimumFractionDigits: 0,
         maximumFractionDigits: 0
     })
