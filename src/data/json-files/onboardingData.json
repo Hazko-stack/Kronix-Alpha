@@ -21,11 +21,11 @@
             "cta": { "label": "Lihat Analisis Aksi Korporasi", "href": "/features" },
             "media": {
                 "front": {
-                    "src": "/steps/steps/step1.jpg",
+                    "src": "steps/step1.jpg",
                     "alt": "Tracking Aksi Korporasi"
                 },
                 "back": {
-                    "src": "/steps/steps/step1.jpg",
+                    "src": "/steps/step1.jpg",
                     "alt": "Monitoring IHSG"
                 }
             }
@@ -43,11 +43,11 @@
             "cta": { "label": "Pelajari Metode Valuasi", "href": "/features" },
             "media": {
                 "front": {
-                    "src": "/steps/steps/step_02_front.webp",
+                    "src": "/steps/step1.jpg",
                     "alt": "Fundamental Deep Dive"
                 },
                 "back": {
-                    "src": "/steps/steps/step_02_back.webp",
+                    "src": "/steps/step_02_back.webp",
                     "alt": "Analisis Laporan Keuangan"
                 }
             }
@@ -65,11 +65,11 @@
             "cta": { "label": "Cek Arus Akumulasi", "href": "/features" },
             "media": {
                 "front": {
-                    "src": "/steps/steps/step3.jpg",
+                    "src": "/steps/step3.jpg",
                     "alt": "Inside the Flow"
                 },
                 "back": {
-                    "src": "/steps/steps/step3.jpg",
+                    "src": "/steps/step3.jpg",
                     "alt": "Smart Money Tracking"
                 }
             }
@@ -87,11 +87,11 @@
             "cta": { "label": "Gabung Membership Gold", "href": "/features" },
             "media": {
                 "front": {
-                    "src": "/steps/steps/step4.jpg",
+                    "src": "/steps/step4.jpg",
                     "alt": "Multibagger Roadmap"
                 },
                 "back": {
-                    "src": "/steps/steps/step4.jpg",
+                    "src": "/steps/step4.jpg",
                     "alt": "Profit Execution"
                 }
             }
