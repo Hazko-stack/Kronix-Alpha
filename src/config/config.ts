@@ -23,14 +23,14 @@ export interface Config {
 
 export const configData: Config = {
 	siteTitle:
-		'Mizu Light Astro Theme | Modern SaaS & Startup Landing Page Template for Fast Product Launches by Oxygenna',
+		'KronixAlpha',
 	siteDescription:
-		'Launch your next big idea with Mizu Light — a sleek, responsive Astro theme built for SaaS startups and tech companies. Streamline onboarding, showcase features beautifully, and convert visitors into users faster.',
-	ogImage: '/og.jpg',
+		'Kronix Alpha',
+	ogImage: '/kronix alpha transparan.png',
 	logo: {
-		src: '/logo-light.svg',
-		srcDark: '/logo-dark.svg',
-		alt: 'Mizu Light logo'
+		src: '/kronix alpha transparan.png',
+		srcDark: '/kronix alpha transparan.png',
+		alt: 'Kronix logo'
 	},
 	canonical: true,
 	noindex: false,

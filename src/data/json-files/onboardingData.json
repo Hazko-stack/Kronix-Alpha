@@ -1,100 +1,100 @@
 {
-	"subtitle": "How it works",
-	"title": "A thoughtful flow from idea to action.",
-	"nav": [
-		{ "id": "step-1", "index": "1", "label": "01. Start the Chat", "color": "#FFEAD0" },
-		{ "id": "step-2", "index": "2", "label": "02. View Insights", "color": "#F7F2FC" },
-		{ "id": "step-3", "index": "3", "label": "03. Set Your Style", "color": "#EDF8FF" },
-		{ "id": "step-4", "index": "4", "label": "04. Accept Payments", "color": "#FEF0F0" }
-	],
-	"steps": [
-		{
-			"id": "step-1",
-			"index": "01",
-			"title": "Your setup starts with a simple conversation",
-			"subtitle": "step 01",
-			"color": "#FFEAD0",
-			"body": [
-				"No long forms, no onboarding maze — just start with a quick conversation. As soon as you arrive, the AI greets you and begins a casual, intelligent chat to understand your goals, habits, and what you’re here to build. It’s like talking to a clever co-founder who’s actually listening. ",
-				"Whether you're brainstorming ideas, organizing thoughts, or setting up a project, the system uses your responses to shape a workspace that feels instantly familiar. It’s a first step that’s simple, fast, and surprisingly fun."
-			],
-			"cta": { "label": "More about getting started", "href": "/features" },
-			"media": {
-				"front": {
-					"src": "/steps/steps/step_01_front.webp",
-					"alt": "step 1"
-				},
-				"back": {
-					"src": "/steps/steps/step_01_back.webp",
-					"alt": "step 1"
-				}
-			}
-		},
-		{
-			"id": "step-2",
-			"index": "02",
-			"title": "Get insights without asking for them",
-			"subtitle": "step 02",
-			"color": "#F7F2FC",
-			"body": [
-				"Once you're in, the system quietly starts paying attention — but in a good way. It tracks patterns in how you work, what you focus on, and where you spend your time. The result? ",
-				"Useful, real-time insights without any effort on your part. You’ll start seeing trends, highlights, and even gentle nudges that help you understand what’s working and what’s getting in the way. It’s analytics, but without the overwhelm — just the right amount of clarity to keep you in flow."
-			],
-			"cta": { "label": "Read about insights", "href": "/features" },
-			"media": {
-				"front": {
-					"src": "/steps/steps/step_02_front.webp",
-					"alt": "step 2"
-				},
-				"back": {
-					"src": "/steps/steps/step_02_back.webp",
-					"alt": "step 2"
-				}
-			}
-		},
-		{
-			"id": "step-3",
-			"index": "03",
-			"title": "Learns what you like (and what you don’t)",
-			"subtitle": "step 03",
-			"color": "#EDF8FF",
-			"body": [
-				"No long forms, no onboarding maze — just start with a quick conversation. As soon as you arrive, the AI greets you and begins a casual, intelligent chat to understand your goals, habits, and what you’re here to build. It’s like talking to a clever co-founder who’s actually listening. ",
-				"Whether you're brainstorming ideas, organizing thoughts, or setting up a project, the system uses your responses to shape a workspace that feels instantly familiar. It’s a first step that’s simple, fast, and surprisingly fun."
-			],
-			"cta": { "label": "More about styles", "href": "/features" },
-			"media": {
-				"front": {
-					"src": "/steps/steps/step_03_front.webp",
-					"alt": "step 3"
-				},
-				"back": {
-					"src": "/steps/steps/step_03_back.webp",
-					"alt": "step 3"
-				}
-			}
-		},
-		{
-			"id": "step-4",
-			"index": "04",
-			"title": "Get paid without the paperwork",
-			"subtitle": "step 04",
-			"color": "#FEF0F0",
-			"body": [
-				"When you’re ready to share your work — whether it’s a product, a service, or something entirely new — the system has everything in place. ",
-				"Built-in payment tools make it easy to accept payments, send invoices, or offer subscriptions without needing extra tools or plugins. It’s secure, fast, and frictionless. You focus on delivering value — we’ll handle the rest."
-			],
-			"cta": { "label": "Accept payments", "href": "/features" },
-			"media": {
-				"front": {
-					"src": "/steps/steps/step_02_front.webp",
-					"alt": "step 4"
-				},
-				"back": {
-					"src": "/steps/steps/step_02_back.webp",
-					"alt": "step 4"
-				}
-			}
-		}
-	]
+    "subtitle": "Strategi Kami",
+    "title": "Alur kerja cerdas untuk menangkap peluang Multibagger.",
+    "nav": [
+        { "id": "step-1", "index": "1", "label": "01. Corporate Tracking", "color": "#FFEAD0" },
+        { "id": "step-2", "index": "2", "label": "02. Fundamental Dive", "color": "#F7F2FC" },
+        { "id": "step-3", "index": "3", "label": "03. Inside the Flow", "color": "#EDF8FF" },
+        { "id": "step-4", "index": "4", "label": "04. Multibagger Roadmap", "color": "#FEF0F0" }
+    ],
+    "steps": [
+        {
+            "id": "step-1",
+            "index": "01",
+            "title": "Corporate Action Tracking & Monitoring",
+            "subtitle": "Tahap 01",
+            "color": "#FFEAD0",
+            "body": [
+                "Kami melakukan pemantauan ketat terhadap setiap keterbukaan informasi emiten. Fokus utama adalah Aksi Korporasi strategis seperti Merger & Acquisition (M&A), Rights Issue, hingga Stock Split yang berpotensi mengubah struktur modal perusahaan secara signifikan.",
+                "Setiap pengumuman dianalisis secara mendalam untuk melihat dampak jangka pendek maupun jangka panjang terhadap nilai perusahaan, memastikan Anda tidak ketinggalan momentum sebelum pasar merespons harga."
+            ],
+            "cta": { "label": "Lihat Analisis Aksi Korporasi", "href": "/features" },
+            "media": {
+                "front": {
+                    "src": "/steps/steps/step1.jpg",
+                    "alt": "Tracking Aksi Korporasi"
+                },
+                "back": {
+                    "src": "/steps/steps/step1.jpg",
+                    "alt": "Monitoring IHSG"
+                }
+            }
+        },
+        {
+            "id": "step-2",
+            "index": "02",
+            "title": "Fundamental Deep Dive & Turnaround Analysis",
+            "subtitle": "Tahap 02",
+            "color": "#F7F2FC",
+            "body": [
+                "Kami membedah laporan keuangan untuk menemukan 'aset tersembunyi' atau potensi turnaround yang belum terdiskon oleh harga pasar saat ini. Kami mencari perusahaan undervalue dengan neraca yang kuat namun sedang dalam fase transisi strategis.",
+                "Analisis ini mencakup evaluasi arus kas, margin laba, hingga valuasi relatif, memberikan Anda keyakinan penuh bahwa investasi didasarkan pada data fundamental yang solid, bukan sekadar rumor pasar."
+            ],
+            "cta": { "label": "Pelajari Metode Valuasi", "href": "/features" },
+            "media": {
+                "front": {
+                    "src": "/steps/steps/step_02_front.webp",
+                    "alt": "Fundamental Deep Dive"
+                },
+                "back": {
+                    "src": "/steps/steps/step_02_back.webp",
+                    "alt": "Analisis Laporan Keuangan"
+                }
+            }
+        },
+        {
+            "id": "step-3",
+            "index": "03",
+            "title": "Inside the Flow: Lacak Jejak Pengendali",
+            "subtitle": "Tahap 03",
+            "color": "#EDF8FF",
+            "body": [
+                "Momentum besar selalu diawali dengan pergerakan 'Smart Money'. Kami memantau perubahan kepemilikan saham oleh institusi besar atau munculnya pengendali baru untuk mengonfirmasi arah tren jangka panjang.",
+                "Dengan memahami siapa yang membeli dan pada harga berapa, Anda bisa menyelaraskan posisi portofolio dengan langkah para pemegang saham pengendali, meminimalisir risiko terjebak dalam fluktuasi ritel yang semu."
+            ],
+            "cta": { "label": "Cek Arus Akumulasi", "href": "/features" },
+            "media": {
+                "front": {
+                    "src": "/steps/steps/step3.jpg",
+                    "alt": "Inside the Flow"
+                },
+                "back": {
+                    "src": "/steps/steps/step3.jpg",
+                    "alt": "Smart Money Tracking"
+                }
+            }
+        },
+        {
+            "id": "step-4",
+            "index": "04",
+            "title": "Multibagger Roadmap & Execution",
+            "subtitle": "Tahap 04",
+            "color": "#FEF0F0",
+            "body": [
+                "Hasil akhir dari semua analisis adalah Roadmap Multibagger. Kami menyusun strategi entri pada saham-saham dengan katalis perubahan pengendali (Akuisisi) yang seringkali menjadi pemicu kenaikan harga hingga ratusan persen.",
+                "Tanpa perlu ribet dengan administrasi, Anda mendapatkan Trading Plan yang siap eksekusi lengkap dengan manajemen risiko. Fokus kami adalah memberikan nilai tambah nyata melalui pertumbuhan aset yang eksponensial secara berkelanjutan."
+            ],
+            "cta": { "label": "Gabung Membership Gold", "href": "/features" },
+            "media": {
+                "front": {
+                    "src": "/steps/steps/step4.jpg",
+                    "alt": "Multibagger Roadmap"
+                },
+                "back": {
+                    "src": "/steps/steps/step4.jpg",
+                    "alt": "Profit Execution"
+                }
+            }
+        }
+    ]
 }

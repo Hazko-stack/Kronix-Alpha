@@ -17,7 +17,6 @@
 // - UI
 import Card from './partials/CardContainer.astro'
 import CardBody from './partials/CardBody.astro'
-import CardFooter from './partials/CardFooter.astro'
 import CardHeader from './partials/CardHeader.astro'
 import { Image } from 'astro:assets'
 
@@ -61,11 +60,5 @@ const {
 	>
 		<blockquote class={quoteClasses}>{quote}</blockquote>
 	</CardBody>
-	<CardFooter classes="flex-1">
-		<p class="text-headings text-xl leading-6 font-medium">
-			<span>{author}</span>
-			<span>{position}</span>
-		</p>
-	</CardFooter>
 	{(<slot name="image" />)}
 </Card>

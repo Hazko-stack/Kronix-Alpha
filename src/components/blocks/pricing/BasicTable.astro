@@ -18,38 +18,21 @@ import pricing from '../../../data/json-files/pricing.json'
 ---
 
 <Section>
-	<Row style="transparent" gapX="0">
-		<Col span="12" style="transparent">
-			<ul class="pricing__toggle">
-				<li data-billing="annually" class="pricing__toggle-item active">
-					<span class="pricing__toggle-link"
-						><span class="hidden md:inline">Bill</span> Annually</span
-					>
-				</li>
-				<li data-billing="monthly" class="pricing__toggle-item">
-					<span class="pricing__toggle-link"
-						><span class="hidden md:inline">Bill</span> Monthly</span
-					>
-				</li>
-			</ul>
-		</Col>
-	</Row>
-</Section>
-
-<Section>
 	<Row style="transparent">
 		{
 			pricing.plans.map((plan) => (
-				<Col span="4" style="semitransparent">
-					<PricingCard
+				<Col span="6" style="semitransparent"> <PricingCard
 						id={plan.id}
 						title={plan.name}
 						subtitle={plan.tagline}
 						prices={{
-							annually: plan.prices.annually,
-							monthly: plan.prices.monthly
+							annually: plan.prices.fixed,
+							monthly: plan.prices.fixed
 						}}
-						pricesNotes={plan.prices_notes}
+						pricesNotes={{
+							annually: plan.prices_notes.fixed,
+							monthly: plan.prices_notes.fixed
+						}}
 						tag={plan.tag}
 						featured={plan.featured}
 						features={plan.features}

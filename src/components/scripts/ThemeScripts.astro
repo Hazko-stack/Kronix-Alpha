@@ -499,14 +499,14 @@
 			return idx === -1 ? 0 : numStr.length - idx - 1
 		}
 
-		function formatMoney(value: number, decimals: number): string {
-			const prefix = '$ '
-			const fmt = new Intl.NumberFormat(undefined, {
-				minimumFractionDigits: decimals,
-				maximumFractionDigits: decimals
-			})
-			return prefix + fmt.format(value)
-		}
+		function formatMoney(value, decimals) {
+    const prefix = 'Rp ' 
+    const fmt = new Intl.NumberFormat('id-ID', { // Ubah ke format Indonesia
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0
+    })
+    return prefix + fmt.format(value)
+}
 
 		function animateCount(
 			el: HTMLElement,

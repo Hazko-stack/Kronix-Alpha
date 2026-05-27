@@ -1,75 +1,72 @@
 {
-	"currency": "USD",
-	"billing_toggle": ["annually", "monthly"],
-	"note": "No hidden fees, cancel anytime.",
-	"plans": [
-		{
-			"id": "starter",
-			"name": "Starter",
-			"tagline": "Get started with the essentials",
-			"prices": {
-				"annually": 19,
-				"monthly": 24
-			},
-			"prices_notes": {
-				"annually": "/month, billed annually",
-				"monthly": "/month, billed monthly"
-			},
-			"cta": { "label": "View All Features", "href": "/signup?plan=starter" },
-			"features": [
-				"Up to 3 active projects",
-				"Basic integrations (Slack, Google Drive, Dropbox)",
-				"Email support during business hours",
-				"10GB secure storage",
-				"Simple task management tools",
-				"Community access & knowledge base"
-			]
-		},
-		{
-			"id": "basic",
-			"name": "Basic",
-			"tagline": "Power and flexibility for growing teams",
-			"prices": {
-				"annually": 29,
-				"monthly": 35
-			},
-			"prices_notes": {
-				"annually": "/month, billed annually",
-				"monthly": "/month, billed monthly"
-			},
-			"cta": { "label": "View All Features", "href": "/signup?plan=starter" },
-			"tag": "Most Popular",
-			"featured": true,
-			"features": [
-				"Unlimited projects and team members",
-				"All integrations (CRM, analytics, communication tools)",
-				"Priority chat & email support",
-				"20GB secure storage",
-				"Custom branding & white-label options",
-				"Advanced reporting and dashboards"
-			]
-		},
-		{
-			"id": "pro",
-			"name": "Pro",
-			"tagline": "Tailored solutions for large organizations",
-			"prices": {
-				"annually": 49,
-				"monthly": 55
-			},
-			"prices_notes": {
-				"annually": "/month, billed annually",
-				"monthly": "/month, billed monthly"
-			},
-			"cta": { "label": "View All Features", "href": "/signup?plan=starter" },
-			"features": [
-				"Everything in basic",
-				"Dedicated success manager",
-				"Priority chat & email support",
-				"Unlimited secure storage",
-				"Custom data residency options (EU/US, APAC)",
-				"Governance, risk & compliance tools"
-			]
-		}
-	]
+    "currency": "IDR",
+    "note": "Harga tetap, tanpa biaya tersembunyi.",
+    "plans": [
+        {
+            "id": "Platinum",
+            "name": "Platinum 1 Bulan",
+            "tagline": "Coba dulu",
+            "prices": {
+                "fixed": 150000
+            },
+            "prices_notes": {
+                "fixed": "/ bulan"
+            },
+            "cta": { 
+                "label": "Daftar Platinum", 
+                "href": "https://docs.google.com/forms/d/..." 
+            },
+            "features": [
+                "Sinyal Saham & Momentum Watchlist",
+                "Analisis Teknikal",
+                "Akses Discord Group Platinum",
+                "Update Berita Pasar Terpilih",
+                "Panduan Risk Management Dasar"
+            ]
+        },
+        {
+            "id": "Platinum-3M",
+            "name": "Platinum 3 Bulan",
+            "tagline": "Komitmen sedang untuk hasil maksimal",
+            "prices": {
+                "fixed": 420000
+            },
+            "prices_notes": {
+                "fixed": "/ 3 bulan"
+            },
+            "cta": { 
+                "label": "Daftar Platinum 3 Bulan", 
+                "href": "https://docs.google.com/forms/d/..." 
+            },
+            "features": [
+                "Sinyal Saham & Momentum Watchlist",
+                "Analisis Teknikal",
+                "Akses Discord Group Platinum",
+                "Update Berita Pasar Terpilih",
+                "Panduan Risk Management Dasar"
+            ]
+        },
+        {
+            "id": "Gold",
+            "name": "Gold",
+            "tagline": "Investasi jangka panjang dengan penghematan maksimal",
+            "prices": {
+                "fixed": 1600000
+            },
+            "prices_notes": {
+                "fixed": "/ tahun (Hemat 200rb)"
+            },
+            "tag": "Best Value",
+            "featured": true,
+            "cta": { 
+                "label": "Daftar Gold", 
+                "href": "https://docs.google.com/forms/d/..." 
+            },
+            "features": [
+                "Semua fitur Platinum",
+                "Sinyal Investasi Jangka Panjang",
+                "Prioritas Konsultasi Portofolio"
+            ]
+        }
+    ]
 }

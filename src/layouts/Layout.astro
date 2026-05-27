@@ -12,7 +12,6 @@
 // Components
 import NavigationBar from '../components/ui/NavigationBar.astro'
 import Main from '../components/ui/Main.astro'
-import Footer from '../components/ui/Footer.astro'
 import Header from '../components/blocks/head/Header.astro'
 import NotificationToast from '../components/ui/NotificationToast.astro'
 // Scripts
@@ -35,7 +34,6 @@ type Props = {
 	ogImage?: string
 	noindex?: boolean
 	navigation?: 'none' | 'transparent' | 'sticky'
-	footer?: 'none' | 'basic'
 }
 // Page Metadata
 const {
@@ -44,7 +42,6 @@ const {
 	ogImage,
 	noindex,
 	navigation = 'sticky',
-	footer = 'basic'
 } = Astro.props
 ---
 
@@ -62,7 +59,6 @@ const {
 		<Main>
 			<slot />
 		</Main>
-		{footer !== 'none' && <Footer />}
 		<NotificationToast />
 		<Scripts />
 	</body>

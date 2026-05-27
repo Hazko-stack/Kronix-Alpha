@@ -15,7 +15,6 @@
 import Card from './partials/CardContainer.astro'
 import CardHeader from './partials/CardHeader.astro'
 import CardBody from './partials/CardBody.astro'
-import CardFooter from './partials/CardFooter.astro'
 import Link from '../Link.astro'
 import DecorationBorder from '../DecorationBorder.astro'
 
@@ -56,11 +55,5 @@ const {
 	>
 		<slot />
 	</CardBody>
-
-	<CardFooter classes="bg-white dark:bg-neutral-950 py-6!">
-		<Link link={link}>
-			{linkText}
-		</Link>
-	</CardFooter>
 	<DecorationBorder type="top right bottom left" style={decorationStyle} />
 </Card>
